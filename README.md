@@ -13,3 +13,9 @@ Then, I compile those files, link them with the actual Taylor Polynomial impleme
 The chart shows accuracy. The x axis the the amount of degrees. The y axis is the estimated value of the function. The plateau is the accurate approximation (but it swings off to lands far far away when the amount of degrees gets too big.)
 
 
+#### other stuff
+
+`go.sh` is what you run to use it. It does all the glueing.  
+data.txt is for chart visualization.  
+graph.sh is the script for gathering data and putting it in data.txt  
+Don't use my executables - compile your own using `go.sh`.
